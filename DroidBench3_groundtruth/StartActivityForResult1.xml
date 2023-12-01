@@ -8,19 +8,19 @@
 <sink signature="android.util.Log: int i(java.lang.String,java.lang.String)" method="org.cert.WriteFile.Button1Listener: void onClick(android.view.View)" parameter="2"/>
 </result>
 <result>
-<source signature="android.location.Location: double getLatitude()" method="org.cert.WriteFile.Button1Listener: java.lang.String getMyLocation()" parameter="0"/>
-<sink signature="android.util.Log: int i(java.lang.String,java.lang.String)" method="org.cert.WriteFile.MainActivity: void onActivityResult(int,int,android.content.Intent)" parameter="2"/>
+<source signature="android.location.Location: double getLatitude()" method="org.cert.WriteFile.Button1Listener: java.lang.String getMyLocation()" parameter="0" from_to="StartActivityForResult1.apk"/>
+<sink signature="android.util.Log: int i(java.lang.String,java.lang.String)" method="org.cert.echoer.MainActivity: void getDataFromIntent()" parameter="2" from_to="Echoer.apk"/>
 </result>
 <result>
-<source signature="android.location.Location: double getLongitude()" method="org.cert.WriteFile.Button1Listener: java.lang.String getMyLocation()" parameter="0"/>
-<sink signature="android.util.Log: int i(java.lang.String,java.lang.String)" method="org.cert.WriteFile.MainActivity: void onActivityResult(int,int,android.content.Intent)" parameter="2"/>
+<source signature="android.location.Location: double getLongitude()" method="org.cert.WriteFile.Button1Listener: java.lang.String getMyLocation()" parameter="0" from_to="StartActivityForResult1.apk"/>
+<sink signature="android.util.Log: int i(java.lang.String,java.lang.String)" method="org.cert.echoer.MainActivity: void getDataFromIntent()" parameter="2" from_to="Echoer.apk"/>
 </result>
 <result>
-<source signature="android.location.Location: double getLatitude()" method="org.cert.WriteFile.Button1Listener: java.lang.String getMyLocation()" parameter="0"/>
-<sink signature="java.io.FileOutputStream: void write(byte[])" method="org.cert.WriteFile.MainActivity: void onActivityResult(int,int,android.content.Intent)" parameter="1"/>
+<source signature="android.location.Location: double getLatitude()" method="org.cert.WriteFile.Button1Listener: java.lang.String getMyLocation()" parameter="0" from_to="StartActivityForResult1.apk"/>
+<sink signature="java.io.FileOutputStream: void write(byte[])" method="org.cert.echoer.MainActivity: void getDataFromIntent()" parameter="1" from_to="Echoer.apk"/>
 </result>
 <result>
-<source signature="android.location.Location: double getLongitude()" method="org.cert.WriteFile.Button1Listener: java.lang.String getMyLocation()" parameter="0"/>
-<sink signature="java.io.FileOutputStream: void write(byte[])" method="org.cert.WriteFile.MainActivity: void onActivityResult(int,int,android.content.Intent)" parameter="1"/>
+<source signature="android.location.Location: double getLongitude()" method="org.cert.WriteFile.Button1Listener: java.lang.String getMyLocation()" parameter="0" from_to="StartActivityForResult1.apk"/>
+<sink signature="java.io.FileOutputStream: void write(byte[])" method="org.cert.echoer.MainActivity: void getDataFromIntent()" parameter="1" from_to="Echoer.apk"/>
 </result>
 </results>
