@@ -1,0 +1,10 @@
+<results num="2">
+<result>
+<source signature="android.location.Location: double getLongitude()" method="de.ecspride.LocationLeak1$MyLocationListener: void onLocationChanged(android.location.Location)" parameter="0"/>
+<sink signature="android.util.Log: int d(java.lang.String,java.lang.String)" method="de.ecspride.LocationLeak1: void onResume()" parameter="2"/>
+</result>
+<result>
+<source signature="android.location.Location: double getLatitude()" method="de.ecspride.LocationLeak1$MyLocationListener: void onLocationChanged(android.location.Location)" parameter="0"/>
+<sink signature="android.util.Log: int d(java.lang.String,java.lang.String)" method="de.ecspride.LocationLeak1: void onResume()" parameter="2"/>
+</result>
+</results>

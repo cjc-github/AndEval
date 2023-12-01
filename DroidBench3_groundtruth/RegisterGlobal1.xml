@@ -1,0 +1,6 @@
+<results num="1">
+<result>
+<source signature="android.telephony.TelephonyManager: java.lang.String getDeviceId()" method="de.ecspride.MyApplication$ApplicationCallbacks: void onActivityStarted(android.app.Activity)" parameter="0"/>
+<sink signature="android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)" method="de.ecspride.MyApplication$ApplicationCallbacks: void onActivityPaused(android.app.Activity)" parameter="3"/>
+</result>
+</results>
