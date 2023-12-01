@@ -1,6 +1,0 @@
-<results num="1">
-<result>
-<source signature="de.ecspride.PrivateDateLeakage: android.view.View findViewById(int)" method="de.ecspride.PrivateDateLeakage: void onRestart()" parameter="0"/>
-<sink signature="android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)" method="de.ecspride.PrivateDateLeakage: void sendMessage(android.view.View)" parameter="3"/>
-</result>
-</results>
