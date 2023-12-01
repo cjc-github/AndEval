@@ -1,0 +1,10 @@
+<results num="2">
+<result>
+<source signature="android.telephony.TelephonyManager: java.lang.String getDeviceId()" method="de.ecspride.MainActivity: void onCreate(android.os.Bundle)" parameter="0"/>
+<sink signature="android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)" method="de.ecspride.MainActivity: void onResume()" parameter="3"/>
+</result>
+<result>
+<source signature="android.telephony.TelephonyManager: java.lang.String getDeviceId()" method="de.ecspride.MainActivity: void onCreate(android.os.Bundle)" parameter="0"/>
+<sink signature="java.io.FileOutputStream: void write(byte[])" method="de.ecspride.MainActivity: void onCreate(android.os.Bundle)" parameter="1"/>
+</result>
+</results>

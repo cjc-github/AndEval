@@ -1,0 +1,6 @@
+<results num="1">
+<result>
+<source signature="android.telephony.TelephonyManager: java.lang.String getDeviceId()" method="de.ecspride.MainActivity: void aliasFlowTest()" parameter="0"/>
+<sink signature="android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)" method="de.ecspride.MainActivity: void aliasFlowTest()" parameter="3"/>
+</result>
+</results>

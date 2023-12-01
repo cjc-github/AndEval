@@ -1,0 +1,6 @@
+<results num="1">
+<result>
+<source signature="android.telephony.TelephonyManager: java.lang.String getDeviceId()" method="com.example.newedtester.MainActivity: void onClick(android.view.View)" parameter="0"/>
+<sink signature="android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)" method="com.example.newedtester.MainActivity: void onClick(android.view.View)" parameter="3"/>
+</result>
+</results>

@@ -1,0 +1,6 @@
+<results num="1">
+<result>
+<source signature="android.telephony.TelephonyManager: java.lang.String getDeviceId()" method="de.ecspride.ActivityLifecycle1: void onCreate(android.os.Bundle)" parameter="0"/>
+<sink signature="java.net.URL: java.net.URLConnection openConnection()" method="de.ecspride.ActivityLifecycle1: void connect()" parameter="0"/>
+</result>
+</results>
