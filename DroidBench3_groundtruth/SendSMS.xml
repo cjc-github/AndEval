@@ -1,0 +1,10 @@
+<results num="2">
+<result>
+<source signature="android.telephony.TelephonyManager: java.lang.String getDeviceId()" method="org.cert.sendsms.Button1Listener: void onClick(android.view.View)" parameter="0"/>
+<sink signature="android.util.Log: int i(java.lang.String,java.lang.String)" method="org.cert.sendsms.Button1Listener: void onClick(android.view.View)" parameter="2"/>
+</result>
+<result>
+<source signature="android.telephony.TelephonyManager: java.lang.String getDeviceId()" method="org.cert.sendsms.Button1Listener: void onClick(android.view.View)" from_to="SendSMS.apk" parameter="0"/>
+<sink signature="android.util.Log: int i(java.lang.String,java.lang.String)" method="org.cert.echoer.MainActivity: void getDataFromIntent()" from_to="Echoer.apk" parameter="2"/>
+</result>
+</results>

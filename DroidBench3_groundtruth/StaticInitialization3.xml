@@ -1,0 +1,6 @@
+<results num="1">
+<result>
+<source signature="android.telephony.TelephonyManager: java.lang.String getDeviceId()" method="edu.mit.clinit.Test: void &lt;clinit&gt;()" parameter="0"/>
+<sink signature="android.util.Log: int i(java.lang.String,java.lang.String)" method="edu.mit.clinit.MainActivity: void onCreate(android.os.Bundle)" parameter="2"/>
+</result>
+</results>
