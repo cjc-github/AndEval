@@ -1,6 +1,0 @@
-<results num="1">
-<result>
-<source signature="android.telephony.TelephonyManager: java.lang.String getDeviceId()" method="edu.uta.ActivityEventSequence3: void onUserLeaveHint()" parameter="0"/>
-<sink signature="android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)" method="edu.uta.ActivityEventSequence3: void onResume()" parameter="3"/>
-</result>
-</results>

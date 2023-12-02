@@ -1,6 +1,0 @@
-<results num="1">
-<result>
-<source signature="android.telephony.TelephonyManager: java.lang.String getDeviceId()" method="edu.mit.activity_asynchronous_event_ordering.MainActivity: void onResume()" parameter="0"/>
-<sink signature="android.util.Log: int i(java.lang.String,java.lang.String)" method="edu.mit.activity_asynchronous_event_ordering.MainActivity: void onStop()" parameter="2"/>
-</result>
-</results>

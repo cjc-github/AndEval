@@ -1,6 +1,0 @@
-<results num="1">
-<result>
-<source signature="android.telephony.TelephonyManager: java.lang.String getDeviceId()" method="mod.ndk.ActMain$1: void onClick(android.view.View)" parameter="0"/>
-<sink signature="unistd: int write(int,char,int)" method="mod.ndk.ActMain$1: void onClick(android.view.View)" java_method="mod.ndk.ActMain: java.lang.String cFuncSendData(java.lang.String)" native_method="jstring Java_mod_ndk_ActMain_cFuncSendData(JNIEnv *,jobject,jstring)" parameter="3"/>
-</result>
-</results>

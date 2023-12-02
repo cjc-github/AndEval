@@ -1,6 +1,0 @@
-<results num="1">
-<result>
-<source signature="android.telephony.TelephonyManager: java.lang.String getDeviceId()" method="de.ecspride.MainActivity: void onCreate(android.os.Bundle)" parameter="0"/>
-<sink signature="android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)" method="de.ecspride.GeneralActivity: void onResume()" parameter="3"/>
-</result>
-</results>
