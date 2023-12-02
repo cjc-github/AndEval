@@ -1,0 +1,6 @@
+<results num="1">
+<result>
+<source signature="android.telephony.TelephonyManager: java.lang.String getDeviceId()" method="mod.ndk.ActMain$1: void onClick(android.view.View)" parameter="0"/>
+<sink signature="android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)" method="mod.ndk.ActMain$1: void onClick(android.view.View)" java_method="mod.ndk.ActMain: boolean cFuncSendSMS(java.lang.String)" native_method="jboolean Java_mod_ndk_ActMain_cFuncSendSMS(JNIEnv *,jobject,jstring)" parameter="3"/>
+</result>
+</results>

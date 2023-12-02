@@ -1,0 +1,6 @@
+<results num="1">
+<result>
+<source signature="android.telephony.TelephonyManager: java.lang.String getDeviceId()" method="de.ecspride.MainActivity: void onCreate(android.os.Bundle)" parameter="0"/>
+<sink signature="android.util.Log: int d(java.lang.String,java.lang.String)" method="de.ecspride.MainActivity$MyAsyncTask: java.lang.String doInBackground(java.lang.String[])" parameter="2"/>
+</result>
+</results>

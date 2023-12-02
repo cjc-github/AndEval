@@ -1,0 +1,10 @@
+<results num="2">
+<result>
+<source signature="android.location.Location: double getLongitude()" method="com.example.location_service.Locationservice: void onLocationChanged(android.location.Location)" from_to="Location_Service1.apk" parameter="0"/>
+<sink signature="java.io.OutputStreamWriter: java.io.Writer append(java.lang.CharSequence)" method="com.example.collector.MainActivity: void onCreate(android.os.Bundle)" from_to="Collector.apk" parameter="1"/>
+</result>
+<result>
+<source signature="android.location.Location: double getLatitude()" method="com.example.location_service.Locationservice: void onLocationChanged(android.location.Location)" from_to="Location_Service1.apk" parameter="0"/>
+<sink signature="java.io.OutputStreamWriter: java.io.Writer append(java.lang.CharSequence)" method="com.example.collector.MainActivity: void onCreate(android.os.Bundle)" from_to="Collector.apk" parameter="1"/>
+</result>
+</results>

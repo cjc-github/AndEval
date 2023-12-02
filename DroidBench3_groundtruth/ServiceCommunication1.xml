@@ -1,0 +1,6 @@
+<results num="1">
+<result>
+<source signature="android.telephony.TelephonyManager: java.lang.String getDeviceId()" method="edu.mit.icc_service_messages.ActivityMessenger: void sayHello(android.view.View)" parameter="0"/>
+<sink signature="android.util.Log: int i(java.lang.String,java.lang.String)" method="edu.mit.icc_service_messages.MessengerService$IncomingHandler: void handleMessage(android.os.Message)" parameter="2"/>
+</result>
+</results>
