@@ -1,6 +1,0 @@
-<results num="1">
-<result>
-<source signature="android.telephony.TelephonyManager: java.lang.String getDeviceId()" method="edu.mit.event_context_shared_pref_listener.MainActivity: void onCreate(android.os.Bundle)" parameter="0"/>
-<sink signature="android.util.Log: int i(java.lang.String,java.lang.String)" method="edu.mit.event_context_shared_pref_listener.MainActivity: void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String)" parameter="2"/>
-</result>
-</results>
